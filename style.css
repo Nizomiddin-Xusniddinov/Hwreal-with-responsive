@@ -1,0 +1,659 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+.container {
+  max-width: 1580px;
+  margin: auto;
+  padding: 0px 15px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0px 15px;
+}
+
+.col-1 {
+  width: 5.2631578947%;
+  padding: 0px 15px;
+}
+
+.col-2 {
+  width: 10.5263157895%;
+  padding: 0px 15px;
+}
+
+.col-3 {
+  width: 15.7894736842%;
+  padding: 0px 15px;
+}
+
+.col-4 {
+  width: 21.0526315789%;
+  padding: 0px 15px;
+}
+
+.col-5 {
+  width: 26.3157894737%;
+  padding: 0px 15px;
+}
+
+.col-6 {
+  width: 31.5789473684%;
+  padding: 0px 15px;
+}
+
+.col-7 {
+  width: 36.8421052632%;
+  padding: 0px 15px;
+}
+
+.col-8 {
+  width: 42.1052631579%;
+  padding: 0px 15px;
+}
+
+.col-9 {
+  width: 47.3684210526%;
+  padding: 0px 15px;
+}
+
+.col-10 {
+  width: 52.6315789474%;
+  padding: 0px 15px;
+}
+
+.col-11 {
+  width: 57.8947368421%;
+  padding: 0px 15px;
+}
+
+.col-12 {
+  width: 63.1578947368%;
+  padding: 0px 15px;
+}
+
+.col-13 {
+  width: 68.4210526316%;
+  padding: 0px 15px;
+}
+
+.col-14 {
+  width: 73.6842105263%;
+  padding: 0px 15px;
+}
+
+.col-15 {
+  width: 78.9473684211%;
+  padding: 0px 15px;
+}
+
+@media (max-width: 992px) {
+  .col-lg-1 {
+    width: 5.2631578947%;
+    padding: 0px 15px;
+  }
+  .col-lg-2 {
+    width: 10.5263157895%;
+    padding: 0px 15px;
+  }
+  .col-lg-3 {
+    width: 15.7894736842%;
+    padding: 0px 15px;
+  }
+  .col-lg-4 {
+    width: 21.0526315789%;
+    padding: 0px 15px;
+  }
+  .col-lg-5 {
+    width: 26.3157894737%;
+    padding: 0px 15px;
+  }
+  .col-lg-6 {
+    width: 31.5789473684%;
+    padding: 0px 15px;
+  }
+  .col-lg-7 {
+    width: 36.8421052632%;
+    padding: 0px 15px;
+  }
+  .col-lg-8 {
+    width: 42.1052631579%;
+    padding: 0px 15px;
+  }
+  .col-lg-9 {
+    width: 47.3684210526%;
+    padding: 0px 15px;
+  }
+  .col-lg-10 {
+    width: 52.6315789474%;
+    padding: 0px 15px;
+  }
+  .col-lg-11 {
+    width: 57.8947368421%;
+    padding: 0px 15px;
+  }
+  .col-lg-12 {
+    width: 63.1578947368%;
+    padding: 0px 15px;
+  }
+  .col-lg-13 {
+    width: 68.4210526316%;
+    padding: 0px 15px;
+  }
+  .col-lg-14 {
+    width: 73.6842105263%;
+    padding: 0px 15px;
+  }
+  .col-lg-15 {
+    width: 78.9473684211%;
+    padding: 0px 15px;
+  }
+}
+@media (max-width: 768px) {
+  .col-md-1 {
+    width: 5.2631578947%;
+    padding: 0px 15px;
+  }
+  .col-md-2 {
+    width: 10.5263157895%;
+    padding: 0px 15px;
+  }
+  .col-md-3 {
+    width: 15.7894736842%;
+    padding: 0px 15px;
+  }
+  .col-md-4 {
+    width: 21.0526315789%;
+    padding: 0px 15px;
+  }
+  .col-md-5 {
+    width: 26.3157894737%;
+    padding: 0px 15px;
+  }
+  .col-md-6 {
+    width: 31.5789473684%;
+    padding: 0px 15px;
+  }
+  .col-md-7 {
+    width: 36.8421052632%;
+    padding: 0px 15px;
+  }
+  .col-md-8 {
+    width: 42.1052631579%;
+    padding: 0px 15px;
+  }
+  .col-md-9 {
+    width: 47.3684210526%;
+    padding: 0px 15px;
+  }
+  .col-md-10 {
+    width: 52.6315789474%;
+    padding: 0px 15px;
+  }
+  .col-md-11 {
+    width: 57.8947368421%;
+    padding: 0px 15px;
+  }
+  .col-md-12 {
+    width: 63.1578947368%;
+    padding: 0px 15px;
+  }
+  .col-md-13 {
+    width: 68.4210526316%;
+    padding: 0px 15px;
+  }
+  .col-md-14 {
+    width: 73.6842105263%;
+    padding: 0px 15px;
+  }
+  .col-md-15 {
+    width: 78.9473684211%;
+    padding: 0px 15px;
+  }
+}
+@media (max-width: 576px) {
+  .col-sm-1 {
+    width: 5.2631578947%;
+    padding: 0px 15px;
+  }
+  .col-sm-2 {
+    width: 10.5263157895%;
+    padding: 0px 15px;
+  }
+  .col-sm-3 {
+    width: 15.7894736842%;
+    padding: 0px 15px;
+  }
+  .col-sm-4 {
+    width: 21.0526315789%;
+    padding: 0px 15px;
+  }
+  .col-sm-5 {
+    width: 26.3157894737%;
+    padding: 0px 15px;
+  }
+  .col-sm-6 {
+    width: 31.5789473684%;
+    padding: 0px 15px;
+  }
+  .col-sm-7 {
+    width: 36.8421052632%;
+    padding: 0px 15px;
+  }
+  .col-sm-8 {
+    width: 42.1052631579%;
+    padding: 0px 15px;
+  }
+  .col-sm-9 {
+    width: 47.3684210526%;
+    padding: 0px 15px;
+  }
+  .col-sm-10 {
+    width: 52.6315789474%;
+    padding: 0px 15px;
+  }
+  .col-sm-11 {
+    width: 57.8947368421%;
+    padding: 0px 15px;
+  }
+  .col-sm-12 {
+    width: 63.1578947368%;
+    padding: 0px 15px;
+  }
+  .col-sm-13 {
+    width: 68.4210526316%;
+    padding: 0px 15px;
+  }
+  .col-sm-14 {
+    width: 73.6842105263%;
+    padding: 0px 15px;
+  }
+  .col-sm-15 {
+    width: 78.9473684211%;
+    padding: 0px 15px;
+  }
+}
+@media (max-width: 400px) {
+  .col-xs-1 {
+    width: 5.2631578947%;
+    padding: 0px 15px;
+  }
+  .col-xs-2 {
+    width: 10.5263157895%;
+    padding: 0px 15px;
+  }
+  .col-xs-3 {
+    width: 15.7894736842%;
+    padding: 0px 15px;
+  }
+  .col-xs-4 {
+    width: 21.0526315789%;
+    padding: 0px 15px;
+  }
+  .col-xs-5 {
+    width: 26.3157894737%;
+    padding: 0px 15px;
+  }
+  .col-xs-6 {
+    width: 31.5789473684%;
+    padding: 0px 15px;
+  }
+  .col-xs-7 {
+    width: 36.8421052632%;
+    padding: 0px 15px;
+  }
+  .col-xs-8 {
+    width: 42.1052631579%;
+    padding: 0px 15px;
+  }
+  .col-xs-9 {
+    width: 47.3684210526%;
+    padding: 0px 15px;
+  }
+  .col-xs-10 {
+    width: 52.6315789474%;
+    padding: 0px 15px;
+  }
+  .col-xs-11 {
+    width: 57.8947368421%;
+    padding: 0px 15px;
+  }
+  .col-xs-12 {
+    width: 63.1578947368%;
+    padding: 0px 15px;
+  }
+  .col-xs-13 {
+    width: 68.4210526316%;
+    padding: 0px 15px;
+  }
+  .col-xs-14 {
+    width: 73.6842105263%;
+    padding: 0px 15px;
+  }
+  .col-xs-15 {
+    width: 78.9473684211%;
+    padding: 0px 15px;
+  }
+}
+.justify-content-center {
+  justify-content: center;
+}
+
+.justify-content-between {
+  justify-content: space-between;
+}
+
+.justify-content-around {
+  justify-content: space-around;
+}
+
+.justify-content-end {
+  justify-content: flex-end;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.justify-content-start {
+  justify-content: start;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none !important;
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+}
+
+header .navbars {
+  padding: 20px 0px 0px 0px;
+  background: #1A1A25;
+}
+
+header .navbars .row1 {
+  padding-bottom: 20px;
+}
+header .navbars .row {
+  justify-content: space-between;
+  align-items: center;
+}
+header .navbars .row2 {
+  justify-content: space-between;
+  color: #fff;
+  margin: 16px 0px;
+}
+header .navbars .row2 i {
+  color: #fff;
+}
+header .navbars .row2 .search {
+  display: flex;
+  justify-content: space-around;
+}
+header .navbars .row2 .search i {
+  color: rgba(133, 143, 164, 0.7);
+  transform: rotate(90deg);
+}
+header .navbars .row2 .search span {
+  color: rgba(133, 143, 164, 0.15);
+}
+header .navbars .row2 .katalog {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+  color: #FFFFFF;
+  background: #F53B49;
+  border-radius: 4px;
+}
+header .navbars .row2 ul {
+  display: flex;
+  justify-content: space-between;
+}
+header .navbars .row2 ul li a {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 140%;
+  /* identical to box height, or 20px */
+  text-align: center;
+  color: #FFFFFF;
+}
+header .navbars .row2 .buy {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+header .navbars .row2 .buy .box {
+  position: relative;
+}
+header .navbars .row2 .buy .box span {
+  position: absolute;
+  padding: 2px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 12px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #FFFFFF;
+  background: #F53B49;
+  border: 2px solid #1A1A25;
+  border-radius: 50%;
+  top: -10px;
+  right: -10px;
+}
+header .navbars select {
+  background: transparent;
+  border: none;
+  color: #858FA4;
+}
+header .navbars button {
+  padding: 10px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  background: #384255;
+  border-radius: 6px;
+  border: none;
+  color: #F7F7F7;
+}
+header .navbars li {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 140%;
+  color: #858FA4;
+  display: flex;
+}
+header .navbars .num li {
+  color: #FFFFFF;
+}
+header .navbars .call {
+  color: #F53B49;
+  font-size: 12px;
+}
+header .navbars .login i {
+  padding: 4px;
+  border-radius: 50%;
+  margin-left: 4px;
+  background: rgba(133, 143, 164, 0.7);
+}
+header .navbars .selec {
+  padding: 15px;
+  background: #2A2C38;
+}
+header .navbars .selec select {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+  color: #FFFFFF;
+}
+header .navbars .selec span {
+  margin: 0px 20px;
+  color: rgba(255, 255, 255, 0.15);
+}
+
+/* Article starting */
+header article .slider .figure div{
+    float: left;
+    width: 20%;
+}
